@@ -136,7 +136,7 @@ input{
     font-size: 20px;
 }
 .ImagemTela02{
-    background-image:url("./EL2_FUNDO.png") ;
+    background-image:url("./files/EL2_FUNDO.png") ;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -262,7 +262,7 @@ input{
     font-size: 25px;
 }
 .ImagemTela03{
-background: url("./EL3_FUNDO.png");
+background: url("./files/EL3_FUNDO.png");
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -297,7 +297,7 @@ background-size: cover;
     width: 350px;
 }
 .ImagemTela04{
-    background: url("./EL4_FUNDO.png");
+    background: url("./files/EL4_FUNDO.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
