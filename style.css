@@ -1,0 +1,845 @@
+*{
+    color: aliceblue;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    background: linear-gradient(200deg,#E6445C,#160E73);
+}
+#navbar .img_logo{
+    width: 300px;
+    height: 120px;
+}
+#navbar a { /*fonte da cor dos items da navbar*/
+    color: #faf5f5;
+}
+
+#navbar .navbar-toggler{
+  color: #f5f5f5;
+
+}
+
+#navbar a:hover {
+    color: #faf5f5;
+    border-bottom: 0.5px solid #eee9e9;
+    font-weight: bolder;
+}
+
+.navbar-brand {  /*classe do link da logo */
+    display: flex;
+}
+
+
+
+
+#navbar-items .navbar-nav {    /*classe para centralizar os elementos ao centro */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    letter-spacing: 0.1em;
+}
+
+#navbar-items .nav-item {  /*margem de um elemento para o outro */
+    margin: 1 1em;
+}
+.Posicionamento{
+    padding: 5%;
+}
+.Posicionamento1{
+    padding: 0% ;
+    
+}
+.PosicionamentoSECTION2{
+    padding: 5%;
+}
+
+
+.ImagemTela01{
+    background-image: url("./files/EL1_FUNDO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Destaque-Fonte{
+    font-weight: 700;
+    font-size: 60px;
+    /* letter-spacing: 0.1em; */
+}
+
+
+.CorFormTela01{
+    /* background: #160E73; */
+    /* width: 95%; */
+    text-align: center;
+    
+}
+.ParagrafoTela01{
+    font-size: 30px; 
+}
+input{
+    color: #616170;
+}
+
+.CaixaCor{
+    width: 100%;
+    height: 30px;
+    background: #160E73;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .caixa{
+    width: 100%;
+    margin: 10px;
+    
+  }
+  input{
+    width: 100%;
+    border-radius: 5px;
+    border: solid 0px;
+    opacity: 70%;
+    height: 35px;
+  }
+  textarea{
+    width: 100%;
+    border-radius: 10px;
+    opacity: 70%;
+  }
+.form-check{
+    margin-left: 10px;    
+}
+.FonteCheckBox{
+    right: 25px;
+    margin-top: -20%;
+    margin-left: 10px;
+}
+.form-check-input{
+    height: 25px;
+    width: 25px;
+   
+}
+.BotaoForm1{
+    text-align: center;
+}
+.BOTAO1{
+    border-radius: 20px;
+    background: #E6445C ;
+    border: solid 0px;
+    /* letter-spacing: 0.1em; */
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+.PtextTel6{
+    font-size: 20px;
+}
+.ImagemTela02{
+    background-image:url("./EL2_FUNDO.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.card{    
+    border: solid , 0px;
+    margin: 5%;
+    padding: 15px;  
+    padding-top: 20px;
+}
+#section02 h5{
+    font-size: 35px;
+    font-weight: 700;
+}
+.PTextTel02{
+    font-size: 15px;
+}
+
+.PText2Tel02{
+    font-size: 17px;
+}
+.CardTitleTel02{
+    text-align: center;
+}
+.ImageCard{
+    border-radius: 100px;
+    margin-top: -60px;
+    margin-left: 120px;
+}
+.imgcard22{
+    margin-top: 0px;
+    width: 50px;
+    height: 50px;
+    background: #f5f5f5;
+    object-fit: contain;
+    border-radius: 50px;
+    color: #E6445C;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 130px;
+}
+.imgcard2{
+    width: 50px;
+    height: 50px;
+    background: #f5f5f5;
+    object-fit: contain;
+    border-radius: 50px;
+    color: #E6445C;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -15%;
+    margin-left: 130px;
+    padding-bottom:10px;
+    padding-top: -2%;
+}
+.ImageCard2{
+    border-radius: 100px;
+    margin-top: -15px;
+    margin-left: 120px;
+    padding-top: 2%;
+}
+
+.CardTransparentNotbook{
+    background: transparent;
+    border: none;
+}
+.CardOpacity{
+    width: 350px;
+    max-width: 350px;
+    height: 400px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    text-align: justify;
+}
+.MarginCardTel02{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.CardTransparent{
+    background: transparent;
+    width: 320px;
+    max-width: 320px;
+    height: 300px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    border: none;
+}
+.imagem{
+    background: #e2e2ed;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50px; 
+    margin: auto;
+     margin-top: -45px;
+     text-align: center;
+    
+}
+.DestaqueNumber{
+    font-weight: 400;
+    font-size: 35px;
+    color: #E6445C;
+    margin-top:-7px;
+   
+}
+.MarginCol8{
+    margin-top: 5%;
+    text-align: left;
+    
+
+}
+.TextTitleCardTransparentSection2{
+    font-size: 50px;
+}
+.TextBodyCardTransparentSection2{
+    font-size: 25px;
+}
+.ImagemTela03{
+background: url("./EL3_FUNDO.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.TituloTela03{
+    text-align: center;
+    font-size: 40px;
+}
+.tel3{
+    color: #160E73;
+}
+
+.TextoTela03{
+    text-align: center;
+    font-size: 25px;
+}
+.textotel3{
+    color: #160E73;
+}
+.ButtonTela03{
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+
+
+}
+.ButonTela03{
+    text-align: center;
+    background: #160E73;
+    border-radius: 10px;
+    width: 350px;
+}
+.ImagemTela04{
+    background: url("./EL4_FUNDO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.LogoTel04{
+    width: 90%;
+    /* height: 400px; */
+    /* margin-top: -60px; */
+}
+.H6DestaqueTel04{
+    width: 600px;
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 8%;
+    margin-top: -20px ;
+    
+}
+.ParagrafoTel04{
+    margin-left: 10%;
+    font-size: 20px;
+    /* letter-spacing: 0.1em; */
+    font-weight: 500;
+    justify-content: center;
+    text-align: justify;
+}
+#section04 .card{
+    margin-top: 70%;
+    width: 300px;
+    max-width: 300px;
+    height: 400px;
+    max-height: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    text-align: center;
+    
+}
+.ImagemRepresentantesTel04{
+    width: 250px;
+    /* height: 350px; */
+    position: relative;
+    top: -40%;
+    left: 10px;
+    border-radius: 10px;
+}
+.ImagemRepresentantesTel05{
+    width: 250px;
+    /* height: 400px; */
+    max-height: 600px;
+    position: relative;
+    top: -40%;
+    left: 10px;
+    border-radius: 10px;
+}
+#section04 .card .card-title{
+    font-size: 20px;
+    margin-top: -60%;
+    
+}
+.PTextCardTel4{
+    font-size: 14px;
+}
+.H6TitutoTel05{
+    font-weight: 500;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: #160E73;
+}
+#section05{
+    background: #e1e7ea;
+}
+#section05 .card{
+    background: #e1e7ea;
+    color: #616170;
+    width: 350px;
+}
+.ColButonTel05{
+    text-align: center;  
+  }
+#section05 .card h5{
+    background: #e1e7ea;
+    color: #616170;
+}
+#section05 .card p{
+    background: #e1e7ea;
+    color: #616170;
+}
+#section05 .ImagemBlogsTel05{
+    width: 100%;
+}
+
+.TamanhoCardTel6{
+    width: 270px;
+    height: 500px;
+
+   
+}
+.LinhaBotaoTel05{
+    text-align: center;
+}
+.ButonTel05{
+    font-size: 25px;
+    background: #160E73;
+    border-radius: 15px ;
+}
+.ImagemTela06{
+    background: linear-gradient(100deg,#E6445C,#160E73);
+}
+.ImagemCadeadoTel06{
+width: 600px;
+height: 600px;
+margin-left: -330px;
+}
+#PosicionamentoFooter{
+    padding: 5%;
+    /* --bs-gutter-x: unset; */
+}
+.row-footer{
+    background: #160E73;
+}
+#icons-footer .icone{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    color: #f5f5f5;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 40px;
+    text-decoration: none;
+  }
+  #icons-footer .none{
+    text-decoration: none;
+  }
+  
+  #icons-footer .center-l2{
+    height: 70px;
+    width: 70px;
+  }
+  .a-footer{
+    margin-top:2%;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+  
+  }
+  .a-footer a {
+    color: #faf5f5;
+    text-decoration: none;
+  }
+  
+  .a-footer a:hover {
+    color: #faf5f5;
+    border-bottom: 0.5px solid #eee9e9;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  .FooterLogo{
+    width: 100%;
+    height: auto;
+  }
+  @media (min-width: 568px) {
+ 
+    .Destaque-Fonte{
+        font-size: 35px;
+    }
+    .ParagrafoTela01{
+        font-size: 20px;
+    }
+    .FonteCheckBox{
+        font-size: 15px;
+    }
+    .form-check-input{
+        width: 20px;    
+        height: 20px;
+    }
+    #section02{
+        text-align: center;
+        
+    }
+    #section02 h5{
+        text-align: center;
+        font-size: 15px;    
+    }
+    h5{
+        text-align: center;
+        font-size: 15px;
+    }
+    .PTextTel02{
+        font-size: 11px;
+    }
+    .PText2Tel02{
+        font-size: 11px;
+    }
+    .CardTransparent{
+        width: 100%;
+        height: 100px;
+        margin-top: 3%;
+        margin: auto;
+    }
+    .CardOpacity{
+        
+        margin: auto;
+        height: 300px;
+        max-height: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.1);
+        justify-content: center;
+        text-align: justify;
+        
+    }
+    .card-text{
+        font-size: 11px;
+    }
+
+    h6.imgcard22{
+        margin-top: -25px;
+        margin-left: 125px;
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+
+    }
+    .imgcard2 {
+        width: 40px;
+        height: 40px;
+        background: #f5f5f5;
+        object-fit: contain;
+        border-radius: 50px;
+        color: #E6445C;
+        font-size: 30px;
+        text-align: center;
+        margin-top: -15%;
+        margin-left: 130px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .TextTitleCardTransparentSection2{
+        font-size: 25px;
+        text-align: left;
+    }
+    .TextBodyCardTransparentSection2{
+        font-size: 13px;
+    }
+    .imagem{
+        background: #e2e2ed;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        border-radius: 50px; 
+        margin: auto;
+         margin-top: -45px;
+         text-align: center;
+        
+    }
+    .DestaqueNumber{
+        font-weight: 400;
+        font-size: 35px;
+        color: #E6445C;
+        margin-top:-7px;
+       
+    }
+    .TituloTela03{
+        font-size: 25px;
+    }
+    .textotel3{
+        font-size: 15px;
+        left: 15px;
+    }
+    .ButtonTela03{
+        text-align: center;
+    }
+    .ButonTela03{
+        max-width: 300px;
+        width: 300px;
+        font-size: 20px;
+    }
+    .ParagrafoTel04{
+        margin: 5%;
+        font-size: 15px;
+        font-weight: 500;
+        justify-content: center;
+        text-align: justify;
+    }
+    .H6DestaqueTel04 {
+        width: 600px;
+        font-size: 25px;
+        font-weight: 700;
+        margin: 10%;
+        margin-left: 5%;
+        margin-top: -20px;
+    }
+    .ImagemCadeadoTel06{
+        display: none;
+    }
+    .H6DestaqueTel04{
+        font-size: 25px;
+        width: 90%;
+    }
+    .card{    
+         border: solid , 0px;
+        margin: auto;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding-top: 20px; 
+    }
+    .CaixaCor{
+        font-size: 13px;
+        text-align: center;
+        
+    }
+    .CardTel04{
+        margin: auto;
+        top: -15px;
+    }
+    .CardTel045{
+        margin: auto;
+        top: -95px;
+   }
+    .TamanhoCardTel6{
+        max-width: 100%; 
+        height: 400px;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .H6TitutoTel05{
+        font-weight: 500;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+        color: #160E73;
+    }
+    .ColButonTel05{
+      text-align: center;  
+    }
+    .ButonTel05{
+        font-size: 20px;
+        background: #160E73;
+        border-radius: 15px ;
+    }
+    #form2{
+        margin-left: -20px;
+    }
+    .FontFooter{
+        font-size: 10px;
+    }
+    }
+  @media (max-width: 576px) {
+  
+    .Destaque-Fonte{
+        font-size: 25px;
+    }
+    .ParagrafoTela01{
+        font-size: 11px;
+    }
+    .FonteCheckBox{
+        font-size: 8px;
+    }
+    .form-check-input{
+        width: 20px;    
+        height: 20px;
+    }
+    #section02{
+        text-align: center;
+        
+    }
+    #section02 h5{
+        text-align: center;
+        font-size: 15px;    
+    }
+    h5{
+        text-align: center;
+        font-size: 15px;
+    }
+    .PTextTel02{
+        font-size: 11px;
+    }
+    .PText2Tel02{
+        font-size: 11px;
+    }
+    .CardTransparent{
+        width: 100%;
+        height: 100px;
+        margin-top: 3%;
+        margin: auto;
+    }
+    .CardOpacity{
+        width: 100%;
+        margin: auto;
+        height: 300px;
+        max-height: 400px;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.1);
+        justify-content: center;
+        text-align: justify;
+        
+    }
+    .card-text{
+        font-size: 11px;
+    }
+
+    h6.imgcard22{
+        margin-top: -25px;
+        margin-left: 125px;
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+
+    }
+    .imgcard2 {
+        width: 40px;
+        height: 40px;
+        background: #f5f5f5;
+        object-fit: contain;
+        border-radius: 50px;
+        color: #E6445C;
+        font-size: 30px;
+        text-align: center;
+        margin-top: -15%;
+        margin-left: 130px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .CardTransparentNotbook{
+        display: none;
+    }
+    .TextTitleCardTransparentSection2{
+        font-size: 25px;
+        text-align: left;
+    }
+    .TextBodyCardTransparentSection2{
+        font-size: 13px;
+    }
+    .imagem{
+        background: #e2e2ed;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        border-radius: 50px; 
+        margin: auto;
+         margin-top: -45px;
+         text-align: center;
+        
+    }
+    .DestaqueNumber{
+        font-weight: 400;
+        font-size: 35px;
+        color: #E6445C;
+        margin-top:-7px;
+       
+    }
+    .TituloTela03{
+        font-size: 25px;
+    }
+    .textotel3{
+        font-size: 15px;
+        left: 15px;
+    }
+    .ButtonTela03{
+        text-align: center;
+    }
+    .ButonTela03{
+        max-width: 300px;
+        width: 300px;
+        font-size: 20px;
+    }
+    .ParagrafoTel04{
+        margin: 5%;
+        font-size: 15px;
+        font-weight: 500;
+        justify-content: center;
+        text-align: justify;
+    }
+    .H6DestaqueTel04 {
+        width: 600px;
+        font-size: 25px;
+        font-weight: 700;
+        margin: 10%;
+        margin-left: 5%;
+        margin-top: -20px;
+    }
+    .ImagemCadeadoTel06{
+        display: none;
+    }
+    .H6DestaqueTel04{
+        font-size: 25px;
+        width: 90%;
+    }
+    .card{    
+         border: solid , 0px;
+        margin: auto;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        padding-top: 20px; 
+    }
+    .CaixaCor{
+        font-size: 13px;
+        text-align: center;
+        
+    }
+    .CardTel04{
+        margin: auto;
+        top: -15px;
+    }
+    .CardTel045{
+        margin: auto;
+        top: -95px;
+   }
+    .TamanhoCardTel6{
+        max-width: 100%; 
+        height: 400px;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .H6TitutoTel05{
+        font-weight: 500;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+        color: #160E73;
+    }
+    .ColButonTel05{
+      text-align: center;  
+    }
+    .ButonTel05{
+        font-size: 20px;
+        background: #160E73;
+        border-radius: 15px ;
+    }
+    #form2{
+        margin-left: -20px;
+    }
+
+ }
+ @media (min-width: 1210px) {
+    .ImagemCadeadoTel06{
+        display: flex;
+    }
+ } 
