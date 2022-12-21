@@ -95,6 +95,11 @@ input{
     margin: 10px;
     
   }
+  .CAIXATEXTEARA{
+    width: 100%;
+    margin: 10px;
+    
+  }
   input{
     width: 100%;
     border-radius: 5px;
@@ -119,6 +124,9 @@ input{
     height: 25px;
     width: 25px;
    
+}
+textarea{
+    color: #616170;
 }
 .BotaoForm1{
     text-align: center;
