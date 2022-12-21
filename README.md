@@ -1,2 +1,0 @@
-# lgpdparasuaempresa.github.io
-lgpdparasuaempresa
