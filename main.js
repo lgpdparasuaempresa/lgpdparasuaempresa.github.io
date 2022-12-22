@@ -16,8 +16,15 @@
          + "Número : "+NumeroDoUsuario+"%0a"
          + "Projeto : "+SobreProjeto+"%0a"   
    });
-
-
+   const agree = document.getElementById("agree");
+   agree.addEventListener('change', function() {
+    const BOTAO01 = document.getElementById("BOTAO01");
+    if(agree.checked) {
+        BOTAO01.removeAttribute("disabled");
+    } else {
+        BOTAO01.setAttribute("disabled","disabled");
+    }
+   });
        
 
 
