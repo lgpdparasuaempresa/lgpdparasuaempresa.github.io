@@ -9,7 +9,7 @@
         const SobreProjeto = document.getElementById("projeto1").value;
 
          btn.style.display = window.location.href =
-         window.location.href = "https://wa.me/558587261031?text=" 
+         window.location.href = "https://wa.me/558587222151?text=" 
          + "Nome : "+NomeDoUsuario+"%0a"
          + "Sua empresa : "+SuaEmpresa+"%0a"
          + "Email : "+EmailDoUsuario+"%0a"

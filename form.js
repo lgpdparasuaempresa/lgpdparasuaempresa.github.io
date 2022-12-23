@@ -8,7 +8,7 @@ const NumeroUsuario = document.getElementById("telefonedouser").value;
 const SobreProject = document.getElementById("projetodouser").value;
 
  btnn.style.display = window.location.href =
- window.location.href = "https://wa.me/558587261031?text=" 
+ window.location.href = "https://wa.me/558587222151?text=" 
  + "Nome : "+NameUser+"%0a"
  + "Sua empresa : "+Empresa+"%0a"
  + "Email : "+EmailUsuario+"%0a"
