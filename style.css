@@ -239,7 +239,7 @@ textarea{
 }
 
 .PText2Tel02{
-    font-size: 17px;
+    font-size: 14px;
 }
 .CardTitleTel02{
     text-align: center;
@@ -290,16 +290,19 @@ textarea{
     width: 350px;
     max-width: 350px;
     height: 400px;
-    max-height: 400px;
+    max-height: 300px;
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #321571;
     justify-content: center;
     text-align: justify;
 }
 .MarginCardTel02{
-    margin-top: 20px;
+    margin-top: 5px;
     text-align: center;
+}
+.MarginCard1Tel02{
+    font-size: 40px;
 }
 
 .CardTransparent{
@@ -313,6 +316,7 @@ textarea{
     justify-content: center;
     text-align: justify;
     border: none;
+    margin-top: 3%;
 }
 .imagem{
     background: #e2e2ed;
@@ -325,12 +329,34 @@ textarea{
      text-align: center;
     
 }
-.DestaqueNumber{
+.DestaqueNumber1{
     font-weight: 400;
     font-size: 35px;
     color: #E6445C;
     margin-top:-7px;
    
+}
+.imagem2{
+    background: #e2e2ed;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50px; 
+    margin: auto;
+     margin-top: -60px;
+     text-align: center;
+}
+
+.DestaqueNumber{
+    font-weight: 400;
+    font-size: 35px;
+    color: #E6445C;
+    margin:auto;
+    text-align: center;
+   
+}
+.PText1Tel02{
+    font-size: 14px;
 }
 .MarginCol8{
     margin-top: 5%;
@@ -339,10 +365,10 @@ textarea{
 
 }
 .TextTitleCardTransparentSection2{
-    font-size: 50px;
+    font-size: 45px;
 }
 .TextBodyCardTransparentSection2{
-    font-size: 25px;
+    font-size: 20px;
 }
 .ImagemTela03{
 background: url("./files/EL3_FUNDO.png");
@@ -357,6 +383,7 @@ background-size: cover;
 }
 .tel3{
     color: #160E73;
+    font-size:35px;
 }
 
 .TextoTela03{
@@ -365,6 +392,7 @@ background-size: cover;
 }
 .textotel3{
     color: #160E73;
+    font-size: 20px;
 }
 .ButtonTela03{
     font-size: 25px;
@@ -444,7 +472,7 @@ background-size: cover;
 .H6TitutoTel05{
     font-weight: 500;
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 700;
     color: #160E73;
 }
@@ -563,14 +591,14 @@ margin-left: -330px;
         text-align: center;
         
     }
-    #section02 h5{
+    /* #section02 h5{
         text-align: center;
         font-size: 15px;    
     }
     h5{
         text-align: center;
         font-size: 15px;
-    }
+    } */
     .PTextTel02{
         font-size: 11px;
     }
@@ -578,22 +606,21 @@ margin-left: -330px;
         font-size: 11px;
     }
     .CardTransparent{
-        width: 100%;
-        height: 100px;
+        /* width: 100%;
+        height: 100px; */
         margin-top: 3%;
         margin: auto;
     }
     .CardOpacity{
-        
-        margin: auto;
-        height: 300px;
-        max-height: 100%;
-        max-width: 100%;
+        width: 350px;
+        max-width: 350px;
+        height: 400px;
+        max-height: 300px;
+        display: flex;
         flex-direction: column;
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: #321571;
         justify-content: center;
         text-align: justify;
-        
     }
     .card-text{
         font-size: 11px;
@@ -621,7 +648,16 @@ margin-left: -330px;
         padding-bottom: 10px;
         text-align: center;
     }
-
+    .imagem2{
+        background: #e2e2ed;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        border-radius: 50px; 
+        margin: auto;
+         margin-top: -45px;
+         text-align: center;
+    }
     .TextTitleCardTransparentSection2{
         font-size: 25px;
         text-align: left;
@@ -639,6 +675,13 @@ margin-left: -330px;
          margin-top: -45px;
          text-align: center;
         
+    }
+    .DestaqueNumber1{
+        font-weight: 400;
+        font-size: 35px;
+        color: #E6445C;
+        margin-top:-7px;
+       
     }
     .DestaqueNumber{
         font-weight: 400;
@@ -766,6 +809,16 @@ margin-left: -330px;
     .PText2Tel02{
         font-size: 11px;
     }
+    .imagem2{
+        background: #e2e2ed;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        border-radius: 50px; 
+        margin: auto;
+         margin-top: -45px;
+         text-align: center;
+    }
     .CardTransparent{
         width: 100%;
         height: 100px;
@@ -773,15 +826,15 @@ margin-left: -330px;
         margin: auto;
     }
     .CardOpacity{
-        width: 100%;
-        margin: auto;
-        height: 300px;
-        max-height: 400px;
+        width: 350px;
+        max-width: 350px;
+        height: 400px;
+        max-height: 300px;
+        display: flex;
         flex-direction: column;
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: #321571;
         justify-content: center;
         text-align: justify;
-        
     }
     .card-text{
         font-size: 11px;
@@ -829,6 +882,13 @@ margin-left: -330px;
          margin-top: -45px;
          text-align: center;
         
+    }
+    .DestaqueNumber1{
+        font-weight: 400;
+        font-size: 35px;
+        color: #E6445C;
+        margin-top:-7px;
+       
     }
     .DestaqueNumber{
         font-weight: 400;
@@ -924,5 +984,53 @@ margin-left: -330px;
  @media (min-width: 1210px) {
     .ImagemCadeadoTel06{
         display: flex;
+    }
+    .PText2Tel02{
+        font-size: 13px;
+    }
+    .DestaqueNumber{
+        font-weight: 400;
+        font-size: 35px;
+        color: #E6445C;
+        margin-top:80px;
+       
+    }
+    .imagem2{
+        background: #e2e2ed;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        border-radius: 50px; 
+        margin: auto;
+         margin-top: -95px;
+         text-align: center;
+    }
+    .TextTitleCardTransparentSection2{
+        font-size: 35px;
+    }
+    .TextBodyCardTransparentSection2{
+        font-size: 20px;
+    }
+    .CardTitleTel02{
+        text-align: center;
+        font-size: px;
+    }
+    .CardOpacity{
+        width: 350px;
+        max-width: 350px;
+        height: 300px;
+        max-height: 300px;
+        display: flex;
+        flex-direction: column;
+        background-color: #321571;
+        justify-content: center;
+        text-align: justify;
+    }
+    .H6TitutoTel05{
+        font-weight: 500;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+        color: #160E73;
     }
  } 
