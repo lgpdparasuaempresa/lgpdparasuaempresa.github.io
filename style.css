@@ -14,6 +14,7 @@ nav{
 }
 #navbar a { /*fonte da cor dos items da navbar*/
     color: #faf5f5;
+    font-size: 20px;
 }
 
 #navbar .navbar-toggler{
@@ -643,6 +644,9 @@ margin-left: -230px;
     .PText2Tel02{
         font-size: 11px;
     }
+    .PText2Tel023{
+        font-size: 11px;
+    }
     .CardTransparent{
         /* width: 100%;
         height: 100px; */
@@ -862,10 +866,13 @@ margin-left: -230px;
     }
     #section02 h5{
         text-align: center;
-        font-size: 15px;  
+        font-size: 25px;  
     }
     .PosicionamentoSECTION2Mobile{
         padding: 5%;
+    }
+    .IconWhats2{
+        width: 25px;
     }
     h5{
         text-align: center;
@@ -873,6 +880,12 @@ margin-left: -230px;
     }
     .PTextTel02{
         font-size: 11px;
+    }
+    .PText2Tel023{
+        font-size: 11px;
+    }
+    .tel3{
+        font-size: 25px;
     }
     .PText2Tel02{
         font-size: 11px;
@@ -892,6 +905,9 @@ margin-left: -230px;
         height: 100px;
         margin-top: 3%;
         margin: auto;
+    }
+    .ImagemTela02{
+        background: linear-gradient(200deg,#E6445C,#160E73);
     }
     .CardOpacity{
         width: 350px;
@@ -982,6 +998,7 @@ margin-left: -230px;
         max-width: 300px;
         width: 300px;
         font-size: 20px;
+        font-weight: 700;
     }
     .ParagrafoTel04{
         margin: 5%;
@@ -1058,6 +1075,9 @@ margin-left: -230px;
         display: flex;
     }
     .PText2Tel02{
+        font-size: 15px;
+    }
+    .PText2Tel023{
         font-size: 15px;
     }
     .DestaqueNumber{
@@ -1182,4 +1202,7 @@ margin-left: -230px;
         height: auto;
       }
     
+      .PTextCardTel4{
+        font-size: 12px;
+    }
  } 
