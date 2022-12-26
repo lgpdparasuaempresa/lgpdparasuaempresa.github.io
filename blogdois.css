@@ -1,0 +1,250 @@
+*{
+    color: aliceblue;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    background: linear-gradient(200deg,#E6445C,#160E73);
+}
+#navbar .img_logo{
+    width: 300px;
+    height: 120px;
+}
+#navbar a { /*fonte da cor dos items da navbar*/
+    color: #faf5f5;
+    font-size: 20px;
+}
+
+#navbar .navbar-toggler{
+  color: #f5f5f5;
+
+}
+
+#navbar a:hover {
+    color: #faf5f5;
+    border-bottom: 0.5px solid #eee9e9;
+    font-weight: bolder;
+}
+
+.navbar-brand {  /*classe do link da logo */
+    display: flex;
+}
+
+
+
+
+#navbar-items .navbar-nav {    /*classe para centralizar os elementos ao centro */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    letter-spacing: 0.1em;
+}
+
+#navbar-items .nav-item {  /*margem de um elemento para o outro */
+    margin: 1 1em;
+}
+
+p{
+    color: black;
+}
+
+.ImagemTela06{
+    background: linear-gradient(100deg,#E6445C,#160E73);
+}
+.ImagemCadeadoTel06{
+width: 500px;
+height: 500px;
+margin-left: -230px;
+}
+.TamanhoCardTel6{
+    width: 270px;
+    height: 500px;
+
+   
+}
+input{
+    color: #616170;
+}
+
+.CaixaCor2{
+    width: 100%;
+    height: 30px;
+    background: #160E73;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .caixa2{
+    width: 100%;
+    margin: 10px;
+    
+  }
+  .CAIXATEXTEARA2{
+    width: 100%;
+    margin: 10px;
+    
+  }
+  input{
+    width: 100%;
+    border-radius: 5px;
+    border: solid 0px;
+    opacity: 70%;
+    height: 35px;
+  }
+  textarea{
+    width: 100%;
+    border-radius: 10px;
+    opacity: 70%;
+  }
+.form-check{
+    margin-left: 10px;    
+}
+.FonteCheckBox2{
+    right: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.form-check-input{
+    height: 25px;
+    width: 25px;
+   
+}
+textarea{
+    color: #616170;
+}
+.BotaoForm2{
+    text-align: center;
+}
+.BOTAO2{
+    border-radius: 20px;
+    background: #E6445C ;
+    border: solid 0px;
+    font-weight: 600;
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+}
+.ImagemBlog2{
+    width: 100%;
+    background: url("./files/blog2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Posicionamento2{
+   
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: #f5f5f5;
+}
+.TitleBlog{
+    color: #160E73;
+    text-align: left;
+    font-weight: 700;
+}
+.TitleBlogP{
+    color: #160E73;
+    text-align: left;
+    font-size: 25px;
+}
+.Fundo{
+    background: #be808a;
+    width: 100%;
+    height: 100%;
+}
+
+#PosicionamentoFooter{
+    padding: 5%;
+    /* --bs-gutter-x: unset; */
+}
+.row-footer{
+    background: #160E73;
+}
+#icons-footer .icone{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    color: #f5f5f5;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 40px;
+    text-decoration: none;
+  }
+  #icons-footer .none{
+    text-decoration: none;
+  }
+  
+  #icons-footer .center-l2{
+    height: 70px;
+    width: 70px;
+  }
+  .a-footer{
+    margin-top:2%;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+  
+  }
+  .a-footer a {
+    color: #faf5f5;
+    text-decoration: none;
+  }
+  
+  .a-footer a:hover {
+    color: #faf5f5;
+    border-bottom: 0.5px solid #eee9e9;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  .FooterLogo{
+    width: 100%;
+    height: auto;
+  }
+  @media (min-width: 568px) {
+    .PosicionamentoTel6{
+        padding: 2%;
+        padding-bottom: 0;
+    }
+    .IconWhats{
+        width: 20px;
+        margin-left: -10px;
+        color: #f5f5f5 !important;
+    }
+    .Destaque-Fonte{
+        font-size: 55px;
+    }
+    .ImagemBlog2{
+        width: 100%;
+        height: 600px;
+        background: url("./files/blog2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media (max-width: 567px) {
+    .ImagemBlog2{
+        width: 100%;
+        height: 300px;
+        background: url("./files/blog2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .Posicionamento{
+        margin-top: 0px;
+    }
+    .ImagemCadeadoTel06{
+        display: none;
+    }
+    #PosicionamentoFooter{
+        padding: 2%;
+    }
+    .IconWhats{
+        width: 25px;
+    }
+}
