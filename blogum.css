@@ -220,4 +220,31 @@ textarea{
     .Destaque-Fonte{
         font-size: 55px;
     }
+    .ImagemBlog{
+        width: 100%;
+        height: 600px;
+        background: url("./files/0278c86a-b9fe-44ab-b887-9261e06b479d.jfif");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media (max-width: 567px) {
+    .ImagemBlog{
+        width: 100%;
+        background: url("./files/0278c86a-b9fe-44ab-b887-9261e06b479d.jfif");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .Posicionamento{
+        margin-top: -250px;
+    }
+    .ImagemCadeadoTel06{
+        display: none;
+    }
+    #PosicionamentoFooter{
+        padding: 2%;
+    }
+    .IconWhats{
+        width: 25px;
+    }
 }
