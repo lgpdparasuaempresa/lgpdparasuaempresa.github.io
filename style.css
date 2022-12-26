@@ -90,6 +90,7 @@ input{
     margin-left: 10px;
     text-align: center;
     border-radius: 5px;
+    font-weight: 700;
   }
   .caixa1{
     width: 100%;
@@ -240,8 +241,13 @@ textarea{
 }
 
 .PText2Tel02{
-    font-size: 14px;
+    font-size: 15px;
 }
+.PText2Tel023{
+    font-size: 15px;
+    margin-top: -25px;
+}
+
 .CardTitleTel02{
     text-align: center;
 }
@@ -290,8 +296,8 @@ textarea{
 .CardOpacity{
     width: 300px;
     max-width: 350px;
-    height: 400px;
-    max-height: 300px;
+    height: 600px;
+    max-height: 600px;
     display: flex;
     flex-direction: column;
     background-color: #321571;
@@ -301,6 +307,10 @@ textarea{
 }
 .MarginCardTel02{
     margin-top: 5px;
+    text-align: center;
+}
+.MarginCardTel022{
+    margin-top: 60px;
     text-align: center;
 }
 .MarginCard1Tel02{
@@ -331,6 +341,19 @@ textarea{
      text-align: center;
     
 }
+.imagem1{
+    background: #e2e2ed;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50px; 
+    margin: auto;
+     margin-top: -40px;
+     text-align: center;
+     margin-bottom: -50px;
+    
+}
+
 .DestaqueNumber1{
     font-weight: 600;
     font-size: 35px;
@@ -338,6 +361,13 @@ textarea{
     margin-top:-7px;
    
 }
+.DestaqueNumberTela02S23{
+    font-weight: 600;
+    font-size: 35px;
+    color: #E6445C;
+    margin-top:-7px;
+}
+
 .imagem2{
     background: #e2e2ed;
     width: 40px;
@@ -349,14 +379,7 @@ textarea{
      text-align: center;
 }
 
-.DestaqueNumber{
-    font-weight: 400;
-    font-size: 35px;
-    color: #E6445C;
-    margin:auto;
-    text-align: center;
-   
-}
+
 .PText1Tel02{
     font-size: 20px;
     font-weight: 600;
@@ -433,7 +456,7 @@ background-size: cover;
 }
 .ParagrafoTel04{
     margin-left: 10%;
-    font-size: 20px;
+    font-size: 22px;
     /* letter-spacing: 0.1em; */
     font-weight: 500;
     justify-content: center;
@@ -730,7 +753,7 @@ margin-left: -230px;
     }
     .ParagrafoTel04{
         margin: 5%;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 500;
         justify-content: center;
         text-align: justify;
@@ -1035,7 +1058,7 @@ margin-left: -230px;
         display: flex;
     }
     .PText2Tel02{
-        font-size: 13px;
+        font-size: 15px;
     }
     .DestaqueNumber{
         font-weight: 400;
@@ -1067,8 +1090,8 @@ margin-left: -230px;
     .CardOpacity{
         width: 350px;
         max-width: 350px;
-        height: 300px;
-        max-height: 300px;
+        height: 350px;
+        max-height: 350px;
         display: flex;
         flex-direction: column;
         background-color: #321571;
