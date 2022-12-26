@@ -134,10 +134,11 @@ textarea{
 }
 .BOTAO1{
     border-radius: 20px;
-    background: #E6445C ;
+    font-weight: 600;
+    background: #160E73 ;
     border: solid 0px;
     /* letter-spacing: 0.1em; */
-    width: 100px;
+    width: 120px;
     height: 30px;
     margin-top: 10px;
 }
@@ -199,8 +200,8 @@ textarea{
     border-radius: 20px;
     background: #E6445C ;
     border: solid 0px;
-    /* letter-spacing: 0.1em; */
-    width: 100px;
+    font-weight: 600;
+    width: 120px;
     height: 30px;
     margin-top: 10px;
 }
@@ -231,11 +232,11 @@ textarea{
     padding-top: 20px;
 }
 #section02 h5{
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 800;
 }
 .PTextTel02{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .PText2Tel02{
@@ -287,7 +288,7 @@ textarea{
     border: none;
 }
 .CardOpacity{
-    width: 350px;
+    width: 300px;
     max-width: 350px;
     height: 400px;
     max-height: 300px;
@@ -296,6 +297,7 @@ textarea{
     background-color: #321571;
     justify-content: center;
     text-align: justify;
+    border-radius: 15px;
 }
 .MarginCardTel02{
     margin-top: 5px;
@@ -307,8 +309,8 @@ textarea{
 
 .CardTransparent{
     background: transparent;
-    width: 320px;
-    max-width: 320px;
+    /* width: 320px; */
+    max-width: 440px;
     height: 300px;
     max-height: 300px;
     display: flex;
@@ -330,7 +332,7 @@ textarea{
     
 }
 .DestaqueNumber1{
-    font-weight: 400;
+    font-weight: 600;
     font-size: 35px;
     color: #E6445C;
     margin-top:-7px;
@@ -356,7 +358,8 @@ textarea{
    
 }
 .PText1Tel02{
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: 600;
 }
 .MarginCol8{
     margin-top: 5%;
@@ -383,16 +386,19 @@ background-size: cover;
 }
 .tel3{
     color: #160E73;
-    font-size:35px;
+    font-size:40px;
+    font-weight: 800;
 }
 
 .TextoTela03{
     text-align: center;
     font-size: 25px;
+    font-weight: 600;
 }
 .textotel3{
     color: #160E73;
     font-size: 20px;
+    text-align: center;
 }
 .ButtonTela03{
     font-size: 25px;
@@ -437,18 +443,19 @@ background-size: cover;
     margin-top: 70%;
     width: 300px;
     max-width: 300px;
-    height: 400px;
+    height: 300px;
     max-height: 400px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background: #321571;
     justify-content: center;
     text-align: center;
+    border-radius: 10px;
     
 }
 .ImagemRepresentantesTel04{
     width: 250px;
     /* height: 350px; */
     position: relative;
-    top: -40%;
+    top: -50%;
     left: 10px;
     border-radius: 10px;
 }
@@ -457,7 +464,7 @@ background-size: cover;
     /* height: 400px; */
     max-height: 600px;
     position: relative;
-    top: -40%;
+    top: -50%;
     left: 10px;
     border-radius: 10px;
 }
@@ -517,9 +524,9 @@ background-size: cover;
     background: linear-gradient(100deg,#E6445C,#160E73);
 }
 .ImagemCadeadoTel06{
-width: 600px;
-height: 600px;
-margin-left: -330px;
+width: 500px;
+height: 500px;
+margin-left: -230px;
 }
 #PosicionamentoFooter{
     padding: 5%;
@@ -573,12 +580,20 @@ margin-left: -330px;
     height: auto;
   }
   @media (min-width: 568px) {
- 
+    .PosicionamentoTel6{
+        padding: 2%;
+        padding-bottom: 0;
+    }
+    .IconWhats{
+        width: 20px;
+        margin-left: -10px;
+        color: #f5f5f5 !important;
+    }
     .Destaque-Fonte{
-        font-size: 35px;
+        font-size: 60px;
     }
     .ParagrafoTela01{
-        font-size: 20px;
+        font-size: 30px;
     }
     .FonteCheckBox{
         font-size: 15px;
@@ -677,14 +692,14 @@ margin-left: -330px;
         
     }
     .DestaqueNumber1{
-        font-weight: 400;
+        font-weight: 600;
         font-size: 35px;
         color: #E6445C;
         margin-top:-7px;
        
     }
     .DestaqueNumber{
-        font-weight: 400;
+        font-weight: 600;
         font-size: 35px;
         color: #E6445C;
         margin-top:-7px;
@@ -694,16 +709,24 @@ margin-left: -330px;
         font-size: 25px;
     }
     .textotel3{
-        font-size: 15px;
+        font-size: 20px;
         left: 15px;
     }
     .ButtonTela03{
         text-align: center;
     }
     .ButonTela03{
-        max-width: 300px;
-        width: 300px;
-        font-size: 20px;
+        max-width: 450px;
+        width: 450px;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .IconWhats2{
+        width: 25px;
+        height: 25px;
+        font-weight: 700;
     }
     .ParagrafoTel04{
         margin: 5%;
@@ -767,7 +790,7 @@ margin-left: -330px;
     .ButonTel05{
         font-size: 20px;
         background: #160E73;
-        border-radius: 15px ;
+        border-radius: 25px ;
     }
     #form2{
         margin-left: -20px;
@@ -777,6 +800,19 @@ margin-left: -330px;
     }
     }
   @media (max-width: 576px) {
+    .BOTAO1{
+        border-radius: 20px;
+        background: #E6445C ;
+        border: solid 0px;
+        /* letter-spacing: 0.1em; */
+        width: 120px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    .IconWhats{
+        width: 20px;
+
+    }
     .CaixaCor1{
         font-size: 14px;
       }
@@ -1049,4 +1085,23 @@ margin-left: -330px;
     .H6DestaqueTel04 {
         font-size: 45px;
     }
+     .H6DestaqueTel04 {
+        width: 600px;
+        font-size: 40px;
+        font-weight: 700;
+        margin: 10%;
+        margin-left: 15px;
+        margin-top: -20px;
+    } 
+    .LogoTel04{
+        width: 80%;
+        margin-left: -20px;        
+    }
+    .ButonTel05{
+        font-size: 25px;
+        background: #160E73;
+        border-radius: 15px ;
+        width: 500px;
+    }
+    
  } 
