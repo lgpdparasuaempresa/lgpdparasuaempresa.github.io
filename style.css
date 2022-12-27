@@ -8,6 +8,9 @@ body{
 nav{
     background: linear-gradient(200deg,#E6445C,#160E73);
 }
+.nav-link{
+    text-decoration: none;
+}
 #navbar .img_logo{
     width: 300px;
     height: 120px;
@@ -24,7 +27,8 @@ nav{
 
 #navbar a:hover {
     color: #faf5f5;
-    border-bottom: 0.5px solid #eee9e9;
+    border-color: #616170;
+    /* border-bottom: 0.5px solid #eee9e9; */
     font-weight: bolder;
 }
 
@@ -625,6 +629,12 @@ margin-left: -230px;
         max-width: 3210px;
         width: 101% ;
     }
+    #navbar a:hover {
+        color: #faf5f5;
+        border-color: #616170;
+        /* border-bottom: 0.5px solid #eee9e9; */
+        font-weight: bolder;
+    }
     .PosicionamentoTel6{
         padding: 2%;
         padding-bottom: 0;
@@ -861,6 +871,12 @@ margin-left: -230px;
     nav{
         max-width: 580px;
         width: 110%;
+    }
+    #navbar a:hover {
+        color: #faf5f5;
+        border-color: #616170;
+        /* border-bottom: 0.5px solid #eee9e9; */
+        font-weight: bolder;
     }
     .BOTAO1{
         border-radius: 20px;
@@ -1149,6 +1165,12 @@ margin-left: -230px;
         max-width: 3210px;
         width: 101% ;
     }
+    #navbar a:hover {
+        color: #faf5f5;
+        border-color: #616170;
+        /* border-bottom: 0.5px solid #eee9e9; */
+        font-weight: bolder;
+    }
     .ImagemCadeadoTel06{
         display: flex;
     }
@@ -1342,6 +1364,12 @@ margin-left: -230px;
     nav{
         max-width: 567px;
          width: 102%;
+    }
+    #navbar a:hover {
+        color: #faf5f5;
+        border-color: #616170;
+        /* border-bottom: 0.5px solid #eee9e9; */
+        font-weight: bolder;
     }
     .BOTAO1{
         border-radius: 20px;
