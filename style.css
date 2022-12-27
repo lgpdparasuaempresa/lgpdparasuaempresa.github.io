@@ -528,6 +528,7 @@ background-size: cover;
 }
 #section05 .ImagemBlogsTel05{
     width: 100%;
+    height: 300px;
 }
 
 .TamanhoCardTel6{
@@ -603,6 +604,19 @@ margin-left: -230px;
     width: 100%;
     height: auto;
   }
+  .TextoBlogs{
+    color: black;
+}
+.TitleBlogP{
+    color: #160E73;
+    text-align: left;
+    font-size: 25px;
+}
+.TitleBlog{
+    color: #160E73;
+    text-align: left;
+    font-weight: 700;
+}
   @media (min-width: 568px) {
     .PosicionamentoTel6{
         padding: 2%;
@@ -824,6 +838,13 @@ margin-left: -230px;
     }
     .FontFooter{
         font-size: 10px;
+    }
+    .ImagemBlog{
+        width: 100%;
+        height: 600px;
+        background: url("./files/0278c86a-b9fe-44ab-b887-9261e06b479d.jfif");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     }
   @media (max-width: 576px) {
@@ -1068,6 +1089,45 @@ margin-left: -230px;
     #form2{
         margin-left: -20px;
     }
+    .Posicionamento{
+        margin-top: 20px;
+    }
+    .ImagemCadeadoTel06{
+        display: none;
+    }
+    #PosicionamentoFooter{
+        padding: 2%;
+    }
+  
+    .TextoBlogs{
+        color: black;
+    }
+    .TitleBlogP{
+        color: #160E73;
+        text-align: left;
+        font-size: 25px;
+    }
+    .ImagemBlog{
+        width: 100%;
+        height: 300px;
+        background: url("./files/0278c86a-b9fe-44ab-b887-9261e06b479d.jfif");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .ImagemBlog2{
+        width: 100%;
+        height: 300px;
+        background: url("./files/blog2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .ImagemBlog3{
+        width: 100%;
+        height: 300px;
+        background: url("./files/blog3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
  }
  @media (min-width: 1210px) {
@@ -1204,5 +1264,50 @@ margin-left: -230px;
     
       .PTextCardTel4{
         font-size: 12px;
+    }
+    .ImagemBlog{
+        width: 100%;
+        height: 600px;
+        background: url("./files/0278c86a-b9fe-44ab-b887-9261e06b479d.jfif");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .ImagemBlog2{
+        width: 100%;
+        height: 600px;
+        background: url("./files/blog2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .Posicionamento2{
+       
+        padding: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background: #f5f5f5;
+    }
+    .TitleBlog{
+        color: #160E73;
+        text-align: left;
+        font-weight: 700;
+    }
+    .TitleBlogP{
+        color: #160E73;
+        text-align: left;
+        font-size: 25px;
+    }
+    .PosicionamentoTel6{
+        padding: 2%;
+        padding-bottom: 0;
+    }
+    .ImagemBlog3{
+        width: 100%;
+        height: 600px;
+        background: url("./files/blog3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .TextoBlogs{
+        color: black;
     }
  } 
