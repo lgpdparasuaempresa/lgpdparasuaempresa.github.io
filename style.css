@@ -1328,8 +1328,8 @@ margin-left: -230px;
  } 
  @media (min-width:364px) and (max-width:567px) {
     nav{
-        max-width: 400px;
-         width: 377px;
+        max-width: 567px;
+         width: 100%;
     }
     .BOTAO1{
         border-radius: 20px;
