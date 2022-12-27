@@ -1137,6 +1137,10 @@ margin-left: -230px;
 
  }
  @media (min-width: 1210px) {
+    nav{
+        max-width: 1210px;
+        width: 100%;
+    }
     .ImagemCadeadoTel06{
         display: flex;
     }
@@ -1329,7 +1333,7 @@ margin-left: -230px;
  @media (min-width:364px) and (max-width:567px) {
     nav{
         max-width: 567px;
-         width: 100%;
+         width: 102%;
     }
     .BOTAO1{
         border-radius: 20px;
